@@ -1,0 +1,13 @@
+<div class="row">
+  <h1>Decreasing Data Flow Graph For Monthly</h1>
+<canvas
+      baseChart
+      [chartType]="'line'"
+      [datasets]="monthlydata"
+      [labels]="DataLabels"
+      [options]="chartOptions"
+      [legend]="true"
+      (chartClick)="onChartClick($event)">
+  </canvas>
+
+  </div>
